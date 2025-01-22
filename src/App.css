@@ -1,92 +1,9 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #1a202c; /* Darker gray background */
-  color: #e2e8f0; /* Light gray text */
   margin: 0;
 }
 
-.note-list .card {
-  border: none;
-}
-
-.note-list .card-title {
-  font-size: 1.5rem;
-}
-
-.note-list .card-text {
-  margin-bottom: 1rem;
-}
-
-.app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  padding: 2rem;
-}
-
 h1 {
-  font-size: 2.5rem;
   font-weight: 600;
-  color: #63b3ed; /* Sky blue */
-  margin-bottom: 1rem;
-}
-
-.note-input, .note-list {
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.note-input {
-  background-color: #2d3748; /* Darker gray */
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-input, textarea {
-  border: none;
-  outline: none;
-  background-color: #4a5568; /* Medium gray */
-  color: #e2e8f0; /* Light gray */
-  padding: 0.5rem;
-  border-radius: 4px;
-}
-
-button {
-  background-color: #3182ce; /* Blue */
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #2b6cb0; /* Darker blue */
-}
-
-.note-list {
-  background-color: #2d3748;
-  padding: 1rem;
-}
-
-.note-list h3 {
-  font-weight: 600;
-}
-
-.note-list button {
-  margin-right: 0.5rem;
-}
-
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #2d3748;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  color: #63b3ed;
 }
